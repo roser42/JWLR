@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+@media only screen and (max-width: 960px) {
+    body {
+        display: block;
+    }
+
+    canvas {
+        margin-bottom: 2rem;
+    }
+
+    #logo {
+        width: 150px;
+    }
+}
+
+canvas {
+    padding: 0;
+}
+
+.user_container {
+    display: block;
+    margin: auto;
+}
+
+.user_container > * {
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.buttons_container {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    align-content: center;
+}
+
+.buttons_container > button, select {
+    margin-right: 1rem;
+    margin-left: auto;
+    width: 100%;
+    font-size: 15px;
+}
+
+select, button {
+    border: 1px solid gray;
+    margin: 0;
+
+    padding: 0 .6em;
+    height: 2.3em;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    border-radius: 2px;
+}
+
+
+
+

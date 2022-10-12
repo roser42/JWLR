@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <title>3dJewellery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="three_cnv"></canvas>
+<div class="user_container">
+    <object id="logo" data="assets/svgs/JWLR_logo.svg" type="image/svg+xml" width="350px"></object>
+    <div class="buttons_container">
+        <button id="load_svg">Load your svg</button>
+        <label for="svgs_select"></label>
+        <select name="svgs_select" id="svgs_select">
+            <option value="">Choose a svg</option>
+            <option value="A">A char</option>
+            <option value="Nirvana_logo">Nirvana logo</option>
+            <option value="JWLR">JWLR</option>
+        </select>
+    </div>
+
+    <pre id="file-contents"></pre>
+</div>
+<script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
